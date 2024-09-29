@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 20px;
+  background: black;
+  color: #ff00f2;
+}
+
+.wrapper {
+  max-width: 1200px;
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.text-wrapper,
+.entries-wrapper {
+  width: 500px;
+}
+
+#textarea {
+  width: 100%;
+  height: 500px;
+  resize: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#textarea:focus-visible {
+  outline: #ff00f2 auto 1px;
+}
+
+#submit {
+  width: 100%;
+  padding: 10px;
+  background: #ff00f2;
+  color: black;
+  font-size: 20px;
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: italic;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.entry-wrapper {
+  margin-bottom: 30px;
+}
+
+.time {
+  font-size: 20px;
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.content {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+}
